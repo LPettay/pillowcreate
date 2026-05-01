@@ -48,7 +48,7 @@ Create + Aeronautics is heavier than vanilla. Default 2–3 GB stutters or crash
 
 1. Hit Play.
 2. **Multiplayer** → **Add Server**.
-3. Server address: *(get from Lance — usually `192.168.1.3` for LAN, otherwise his Tailscale or public IP)*
+3. Server address: *(your host will give you this — typically an IP and port like `1.2.3.4:25565`)*
 4. Join.
 
 That's it. You're flying.
@@ -61,7 +61,9 @@ When a new version drops, you'll need to redownload the `.mrpack` and reimport �
 
 ---
 
-## For Lance (server host)
+## Hosting your own server
+
+If you want to run PillowCreate yourself instead of joining one.
 
 ### Start / stop
 
@@ -83,7 +85,7 @@ Or set `OPS=<username>` in `.env` for it to persist across container recreates.
 
 ### Ports
 
-`25565/tcp` — that's it. Forward on the router for internet play, or expose via Tailscale.
+`25565/tcp` — that's it. Forward on the router for internet play, or expose via a mesh VPN like Tailscale to avoid exposing a public IP.
 
 ### Backups
 
