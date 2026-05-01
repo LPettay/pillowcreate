@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "game": "minecraft",
+  "versionId": "1.0.0",
+  "name": "PillowCreate",
+  "summary": "Create: Aeronautics server pack. Includes AutoModpack; the rest of the mods are pushed by the server on first connect.",
+  "dependencies": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.228"
+  },
+  "files": [
+    {
+      "path": "mods/automodpack-mc1.21.1-neoforge-4.0.5.jar",
+      "hashes": {
+        "sha1": "18cabd45e7c67f21f80febf65ba7d9aa7872851a",
+        "sha512": "b0df055ffe4b9549a2e7f1e29764b1ef19b5a0a88b57e62c73a9ddc358010fbf1f2436876c57aedc97f65805066e3bd86e6a51bcf9618a7fee5fec0eb3fe4b7f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/k68glP2e/versions/ET2mE920/automodpack-mc1.21.1-neoforge-4.0.5.jar"
+      ],
+      "fileSize": 15383558
+    }
+  ]
+}

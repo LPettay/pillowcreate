@@ -57,17 +57,14 @@ tar czf backup-$(date +%Y%m%d).tgz data/world
 
 ## For your buddies
 
-You need NeoForge 1.21.1 + the AutoModpack mod. After that, Lance's server pushes the rest to you automatically.
+Grab `dist/PillowCreate-1.0.0.mrpack` and import it.
 
-**Easiest path — Prism Launcher (recommended):**
+1. Install [Modrinth App](https://modrinth.com/app) (or [Prism Launcher](https://prismlauncher.org/) — either works).
+2. Drag `PillowCreate-1.0.0.mrpack` onto the launcher window — it auto-installs NeoForge 1.21.1 and AutoModpack into a fresh instance.
+3. Click Play.
+4. Multiplayer → Add Server → `192.168.1.3` (or whatever IP Lance gives you).
+5. Connect. AutoModpack downloads Create + Sable + Aeronautics + KubeJS + Rhino, prompts for a restart, reconnect — you're in.
 
-1. Install [Prism Launcher](https://prismlauncher.org/).
-2. Add Instance → Custom → Minecraft 1.21.1 → NeoForge → latest 21.1.x.
-3. Start the instance once so it generates the mods folder, then close.
-4. Drop [AutoModpack for NeoForge 1.21.1](https://modrinth.com/mod/automodpack/versions?l=neoforge&g=1.21.1) `.jar` into the instance's `mods/` folder.
-5. Launch the instance, click Multiplayer → Add Server → enter Lance's IP.
-6. First connect: AutoModpack downloads everything, asks you to restart, you reconnect, you're in.
+Allocate ~4 GB RAM in the instance settings. Create + Aeronautics is heavier than vanilla.
 
-**Vanilla launcher path:** install NeoForge 1.21.1 with the official installer, drop AutoModpack into `%appdata%\.minecraft\mods\`, launch the NeoForge profile, connect. Same as above but with the official launcher.
-
-You'll need ~4 GB of RAM allocated and a halfway recent GPU — Create + Aeronautics is heavier than vanilla.
+The `.mrpack` does NOT work with the vanilla Minecraft launcher — that launcher doesn't speak the modpack format. Use Modrinth App or Prism.
