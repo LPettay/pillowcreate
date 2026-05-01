@@ -57,10 +57,10 @@ tar czf backup-$(date +%Y%m%d).tgz data/world
 
 ## For your buddies
 
-Grab `dist/PillowCreate-1.0.0.mrpack` and import it.
+Grab `dist/PillowCreate-1.0.1.mrpack` and import it.
 
 1. Install [Modrinth App](https://modrinth.com/app) (or [Prism Launcher](https://prismlauncher.org/) — either works).
-2. Drag `PillowCreate-1.0.0.mrpack` onto the launcher window — it auto-installs NeoForge 1.21.1 and AutoModpack into a fresh instance.
+2. Drag `PillowCreate-1.0.1.mrpack` onto the launcher window — it auto-installs NeoForge 1.21.1 and AutoModpack into a fresh instance.
 3. Click Play.
 4. Multiplayer → Add Server → `192.168.1.3` (or whatever IP Lance gives you).
 5. Connect. AutoModpack downloads Create + Sable + Aeronautics + KubeJS + Rhino, prompts for a restart, reconnect — you're in.

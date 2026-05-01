@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.0",
+  "versionId": "1.0.1",
   "name": "PillowCreate",
-  "summary": "Create: Aeronautics server pack. Includes AutoModpack; the rest of the mods are pushed by the server on first connect.",
+  "summary": "Create: Aeronautics fat pack. Includes Create + Sable + Aeronautics + KubeJS + Rhino + AutoModpack. Recommended: 6 GB RAM.",
   "dependencies": {
     "minecraft": "1.21.1",
     "neoforge": "21.1.228"
@@ -15,14 +15,59 @@
         "sha1": "18cabd45e7c67f21f80febf65ba7d9aa7872851a",
         "sha512": "b0df055ffe4b9549a2e7f1e29764b1ef19b5a0a88b57e62c73a9ddc358010fbf1f2436876c57aedc97f65805066e3bd86e6a51bcf9618a7fee5fec0eb3fe4b7f"
       },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/k68glP2e/versions/ET2mE920/automodpack-mc1.21.1-neoforge-4.0.5.jar"
-      ],
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/k68glP2e/versions/ET2mE920/automodpack-mc1.21.1-neoforge-4.0.5.jar"],
       "fileSize": 15383558
+    },
+    {
+      "path": "mods/create-1.21.1-6.0.10.jar",
+      "hashes": {
+        "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+        "sha512": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar"],
+      "fileSize": 19123767
+    },
+    {
+      "path": "mods/sable-neoforge-1.21.1-1.2.2.jar",
+      "hashes": {
+        "sha1": "c5ecd3fcf60a31d84112c708abe29e341b2d1b73",
+        "sha512": "eb7c46649f5aa359f688fecacfa348b205dff0cfc2d27694632c2e1e1f8f4dbab2c31bdc95b2577201529b2597afe49328c7ad8c348d25eaca109f1a02667534"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/T9PomCSv/versions/3FMsUjO4/sable-neoforge-1.21.1-1.2.2.jar"],
+      "fileSize": 12719293
+    },
+    {
+      "path": "mods/create-aeronautics-bundled-1.21.1-1.2.1.jar",
+      "hashes": {
+        "sha1": "fdf1ae69e8b6437e0196b3a35dd2325aa904aba9",
+        "sha512": "c7899f8a693cf1b4c17a31faf64e631383f6df331b82b517ed6abe01b0464a9f10b226f0336fa8611c5af514375716c4d009d55c7f92640445c68239b63ebc03"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/oWaK0Q19/versions/YhZLrAFC/create-aeronautics-bundled-1.21.1-1.2.1.jar"],
+      "fileSize": 33030286
+    },
+    {
+      "path": "mods/kubejs-neoforge-2101.7.2-build.363.jar",
+      "hashes": {
+        "sha1": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2",
+        "sha512": "f5becb7d285c5e1e4f1d739f553d0d08b1a0a7cb346e318902f72b5c7a460f4b62f834f26dcf4f6bf66ccd02da0302811824e183f0357cf6a67a1252069a8d65"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/umyGl7zF/versions/Fe9CjPws/kubejs-neoforge-2101.7.2-build.363.jar"],
+      "fileSize": 2270442
+    },
+    {
+      "path": "mods/rhino-2101.2.7-build.81.jar",
+      "hashes": {
+        "sha1": "480235a9f7749f68ce6fec3b9c3cac3428b92a4a",
+        "sha512": "83a4f35cce9902b7175700aeccb8519716ff407dff2a936aa0215e162d81421d109c95f82ff88a84ccbe197caee0a4a76ca44d9c8b8ce954162596d7ede18c23"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar"],
+      "fileSize": 882033
     }
   ]
 }
