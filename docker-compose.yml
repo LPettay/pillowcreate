@@ -4,7 +4,6 @@ services:
     container_name: pillowcreate
     ports:
       - "25565:25565"      # Minecraft (forward on router for friends)
-      - "30078:30078"      # AutoModpack HTTP (forward so friends auto-download the pack)
     environment:
       EULA: "TRUE"
 
@@ -27,7 +26,6 @@ services:
         create
         sable
         create-aeronautics
-        automodpack
         kubejs
         rhino:ZdLtebKH
 
