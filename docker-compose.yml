@@ -28,6 +28,11 @@ services:
         create-aeronautics
         kubejs
         rhino:ZdLtebKH
+        terralith
+        tectonic
+        lithostitched
+        distanthorizons:KkaaQtTD
+        chunky
 
       OPS: "${OPS:-}"
       WHITELIST: "${WHITELIST:-}"

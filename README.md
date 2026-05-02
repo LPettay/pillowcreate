@@ -34,6 +34,8 @@ The launcher will fetch (~80 MB total, takes a minute):
 - Create 6.0.10
 - Sable 1.2.2
 - Create Aeronautics 1.2.1 *(planes, airships, drones, balloons, ground vehicles)*
+- Tectonic + Terralith *(huge mountain ranges, deep oceans, ~100 new biomes)*
+- Distant Horizons *(see chunks tens of thousands of blocks away in low-LOD)*
 - KubeJS + Rhino *(for server-side tweaks)*
 
 ### 4. Allocate 6 GB RAM

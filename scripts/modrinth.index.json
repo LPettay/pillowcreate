@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.2",
+  "versionId": "1.1.0",
   "name": "PillowCreate",
-  "summary": "Create: Aeronautics multiplayer pack. Includes Create + Sable + Aeronautics + KubeJS + Rhino. Recommended: 6 GB RAM.",
+  "summary": "Create: Aeronautics multiplayer pack with Tectonic + Terralith terrain & biomes and Distant Horizons. Recommended: 6 GB RAM.",
   "dependencies": {
     "minecraft": "1.21.1",
     "neoforge": "21.1.228"
@@ -58,6 +58,46 @@
       "env": { "client": "required", "server": "required" },
       "downloads": ["https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar"],
       "fileSize": 882033
+    },
+    {
+      "path": "mods/Terralith_1.21.x_v2.5.8.jar",
+      "hashes": {
+        "sha1": "bee0cfb1a8cd4bf3d96bccea224fb45d74de9085",
+        "sha512": "f862ed5435ce4c11a97d2ea5c40eee9f817c908f3223b5fd3e3fff0562a55111d7429dc73a2f1ca0b1af7b1ff6fa0470ed6efebb5de13336c40bb70fb357dd60"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/8oi3bsk5/versions/MuJMtPGQ/Terralith_1.21.x_v2.5.8.jar"],
+      "fileSize": 3115385
+    },
+    {
+      "path": "mods/lithostitched-1.7.2-neoforge-21.1.jar",
+      "hashes": {
+        "sha1": "ce35206214647131ebdf14212d1986349aeba79a",
+        "sha512": "ff5b534e0f6519dfa2ce3e993a92529b7400265f1f94f806ba384b253449305c645f0a6e4defce80ba1ac7028be1933dec3e1ec2106ac974c5126927e8bd9ab8"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/XaDC71GB/versions/IONexlgI/lithostitched-1.7.2-neoforge-21.1.jar"],
+      "fileSize": 810015
+    },
+    {
+      "path": "mods/tectonic-3.0.22-neoforge-21.1.jar",
+      "hashes": {
+        "sha1": "12b0f4af2a2eaae3d9e9cb1a8a3fd1ca7e610314",
+        "sha512": "a02d3f2bfd8aa099512005df23b45ec723694c397b4224a69ffd47b41cd06bb3d56a0f10bbfd81e8159e0fc55f61d0729656f91231410a74ed55e6fc16fd18ec"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/lWDHr9jE/versions/iCGkqnnx/tectonic-3.0.22-neoforge-21.1.jar"],
+      "fileSize": 337253
+    },
+    {
+      "path": "mods/DistantHorizons-3.0.2-b-1.21.1-fabric-neoforge.jar",
+      "hashes": {
+        "sha1": "1ff0a8920e52add541471f7b32d0d389997145ba",
+        "sha512": "dc69b30efd3192a39209d35fa785ea39f92a18a1f7ef1361e9d52cebed055f99834944dbf33b102f14c39c6091cfe4b3fd7b4effda77a3436cecf395f02bb754"
+      },
+      "env": { "client": "required", "server": "required" },
+      "downloads": ["https://cdn.modrinth.com/data/uCdwusMi/versions/KkaaQtTD/DistantHorizons-3.0.2-b-1.21.1-fabric-neoforge.jar"],
+      "fileSize": 30019727
     }
   ]
 }
